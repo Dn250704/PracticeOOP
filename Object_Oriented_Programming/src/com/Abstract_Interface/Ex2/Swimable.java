@@ -1,4 +1,4 @@
-package com.Abstract_Interface;
+package com.Abstract_Interface.Ex2;
 public interface Swimable {
     // Method swim of interface Swimable
     void swim();
