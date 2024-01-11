@@ -1,15 +1,15 @@
-package com.Abstract_Interface.Ex4;
+package com.Abstract_Interface;
 
 import java.util.Scanner;
 
-public abstract class Shape {
+public abstract class Shapee {
     String color;
     boolean filled;
 
     // Constructor
-    public Shape(){}
+    public Shapee(){}
 
-    public Shape(String color, boolean filled) {
+    public Shapee(String color, boolean filled) {
         this.color = color;
         this.filled = filled;
     }
@@ -34,7 +34,7 @@ interface Resizable {
     void resize();
 }
 
-class ResizableCircle extends Shape implements Resizable {
+class ResizableCircle extends Shapee implements Resizable {
     private double radius;
 
     public ResizableCircle(String color, boolean filled, double radius) {

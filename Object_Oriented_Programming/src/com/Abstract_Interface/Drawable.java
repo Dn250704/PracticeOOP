@@ -1,4 +1,4 @@
-package com.Abstract_Interface.Ex1;
+package com.Abstract_Interface;
 
 import java.util.Scanner;
 
